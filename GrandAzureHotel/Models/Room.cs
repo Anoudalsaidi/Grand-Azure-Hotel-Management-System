@@ -19,8 +19,8 @@ namespace GrandAzureHotel.Models
         //Constructor
         public Room(int roomNum, string roomtype)
         {
-            roomNum = roomNumber;
-            roomtype = roomType;
+            roomNumber = roomNum;
+            roomType = roomtype;
             isBooked = false;
         }
 
@@ -43,7 +43,8 @@ namespace GrandAzureHotel.Models
         public void DisplayInfo()
 
         {
-            Console.WriteLine($"Room: {roomNumber} | Type : {roomType} | Available : {isBooked}");
+            Console.WriteLine(
+     $"Room: {roomNumber} | Type: {roomType} | Status: {(isBooked ? "Booked" : "Available")}");
         }
 
     }

@@ -53,6 +53,7 @@ namespace GrandAzureHotel.Models
             }
 
             rooms.Add(new Room(number, type));
+            Console.WriteLine($"Rooms Count = {rooms.Count}");
 
             PrintSuccess("Room added successfully");
         }
@@ -111,6 +112,7 @@ namespace GrandAzureHotel.Models
         //Available Rooms
         public void DisplayAvailableRooms()
         {
+            Console.WriteLine($"Rooms Count = {rooms.Count}");
             PrintHeader("Available Rooms");
 
             Console.WriteLine("+-----------+-----------+------------+");
