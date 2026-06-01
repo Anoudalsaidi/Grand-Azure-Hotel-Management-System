@@ -1,4 +1,9 @@
 # 🏨 Grand Azure Hotel Management System
+![C#](https://img.shields.io/badge/C%23-Programming-blue?style=for-the-badge&logo=csharp)
+![.NET](https://img.shields.io/badge/.NET-Console_App-purple?style=for-the-badge&logo=dotnet)
+![OOP](https://img.shields.io/badge/OOP-Principles-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Educational-lightgrey?style=for-the-badge)
 
 A console-based Hotel Management System built using C# and Object-Oriented Programming principles.
 
