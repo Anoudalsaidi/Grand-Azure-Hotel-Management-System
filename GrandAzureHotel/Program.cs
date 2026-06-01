@@ -51,7 +51,7 @@ namespace GrandAzureHotel
                         Console.Write("Enter National ID: ");
                         string gId = Console.ReadLine();
 
-                        hotel.AddGuest(gName, gId););
+                        hotel.AddGuest(gName, gId);
                         break;
 
                     case 2:

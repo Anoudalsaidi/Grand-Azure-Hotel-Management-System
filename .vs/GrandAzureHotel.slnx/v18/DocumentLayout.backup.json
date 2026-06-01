@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|solutionrelative:grandazurehotel\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|c:\\users\\baker\\desktop\\backend\\grand azure hotel\\grandazurehotel\\grandazurehotel\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|solutionrelative:grandazurehotel\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|c:\\users\\baker\\desktop\\backend\\grand azure hotel\\grandazurehotel\\grandazurehotel\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|solutionrelative:grandazurehotel\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|c:\\users\\baker\\desktop\\backend\\grand azure hotel\\grandazurehotel\\grandazurehotel\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|solutionrelative:grandazurehotel\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46ABA6A1-683B-CFDE-EBD6-F4EB13E530FD}|GrandAzureHotel\\GrandAzureHotel.csproj|c:\\users\\baker\\desktop\\backend\\grand azure hotel\\grandazurehotel\\grandazurehotel\\models\\guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,32 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Hotel.cs",
-              "DocumentMoniker": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Hotel.cs",
-              "RelativeDocumentMoniker": "GrandAzureHotel\\Models\\Hotel.cs",
-              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Hotel.cs",
-              "RelativeToolTip": "GrandAzureHotel\\Models\\Hotel.cs",
-              "ViewState": "AgIAAIAAAAAAAAASwmcPwIoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T09:42:26.976Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Booking.cs",
-              "RelativeDocumentMoniker": "GrandAzureHotel\\Models\\Booking.cs",
-              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Booking.cs",
-              "RelativeToolTip": "GrandAzureHotel\\Models\\Booking.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T08:23:33.016Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -80,22 +56,48 @@
               "RelativeDocumentMoniker": "GrandAzureHotel\\Program.cs",
               "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Program.cs*",
               "RelativeToolTip": "GrandAzureHotel\\Program.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T08:21:58.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Room.cs",
               "RelativeDocumentMoniker": "GrandAzureHotel\\Models\\Room.cs",
-              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Room.cs",
-              "RelativeToolTip": "GrandAzureHotel\\Models\\Room.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Room.cs*",
+              "RelativeToolTip": "GrandAzureHotel\\Models\\Room.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T08:23:19.16Z"
+              "WhenOpened": "2026-06-01T08:23:19.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "GrandAzureHotel\\Models\\Hotel.cs",
+              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Hotel.cs*",
+              "RelativeToolTip": "GrandAzureHotel\\Models\\Hotel.cs*",
+              "ViewState": "AgIAAKMAAAAAADArI/cVwLcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T09:42:26.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "GrandAzureHotel\\Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\baker\\Desktop\\Backend\\Grand Azure Hotel\\GrandAzureHotel\\GrandAzureHotel\\Models\\Booking.cs",
+              "RelativeToolTip": "GrandAzureHotel\\Models\\Booking.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-01T08:23:33.016Z"
             },
             {
               "$type": "Document",

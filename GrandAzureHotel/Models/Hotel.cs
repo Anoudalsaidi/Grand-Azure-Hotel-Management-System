@@ -30,10 +30,10 @@ namespace GrandAzureHotel.Models
             Guest existingGuest = guests.Find(g => g.NationalID == id);
             if (existingGuest != null)
             {
-                Console.WriteLine("Guest already Eists"); return;
+                PrintError("Guest already Eists"); return;
             }
             guests.Add(new Guest(name, id));
-            Console.WriteLine("Guest added successfully!");
+            PrintSuccess("Guest added successfully!");
         }
 
         //FindGuest
@@ -49,39 +49,46 @@ namespace GrandAzureHotel.Models
             Room room = rooms.Find(r => r.RoomNumber == number);
             if (room != null)
             {
-                Console.WriteLine("Room already exists"); return;
+                PrintError("Room already exists"); return;
             }
 
             rooms.Add(new Room(number, type));
 
-            Console.WriteLine("Room added successfully");
+            PrintSuccess("Room added successfully");
         }
 
         // BookRoom
-        public void BookRoom(string nationslID, int roomNumber)
+        public void BookRoom(string nationalID, int roomNumber)
         {
-            Guest guest = FindGuest(nationslID);
-            if (guest != null)
-            {
-                Console.WriteLine("Guest not found"); return;
+            Guest guest = FindGuest(nationalID);
 
+            if (guest == null)
+            {
+                PrintError("Guest not found");
+                return;
             }
 
             Room room = rooms.Find(r => r.RoomNumber == roomNumber);
-            if (room != null)
+
+            if (room == null)
             {
-                Console.WriteLine("Room not found"); return;
+                PrintError("Room not found");
+                return;
             }
+
             if (room.IsBooked)
             {
-                Console.WriteLine("Room already booked"); return;
+                PrintError("Room already booked");
+                return;
             }
 
             room.Book();
 
             Booking booking = new Booking(guest, room);
+
             bookings.Add(booking);
-            Console.WriteLine($"Booking Successful | ID: {booking.BookingID}");
+
+            PrintSuccess($"Booking Successful | ID: {booking.BookingID}");
         }
 
         //CancelBooking
@@ -90,33 +97,54 @@ namespace GrandAzureHotel.Models
             Booking booking=bookings.Find(b=> b.BookingID == bookingID);
             if(booking == null)
             {
-                Console.WriteLine("Booking not found"); return;
+                PrintError("Booking not found"); return;
 
             }
 
             booking.Room.CancelBooking();
 
             bookings.RemoveAll(b=> b.BookingID == bookingID);
-            Console.WriteLine("Booking cancelled.");
+            PrintSuccess("Booking cancelled.");
 
         }
 
         //Available Rooms
         public void DisplayAvailableRooms()
         {
-            foreach (Room room in rooms) {
-                if (!room.IsBooked) { room.DisplayInfo(); }
+            PrintHeader("Available Rooms");
+
+            Console.WriteLine("+-----------+-----------+------------+");
+            Console.WriteLine("| Room No   | Type      | Available  |");
+            Console.WriteLine("+-----------+-----------+------------+");
+
+            foreach (Room room in rooms)
+            {
+                if (!room.IsBooked)
+                {
+                    Console.WriteLine(
+                        $"| {room.RoomNumber,-9} | {room.RoomType,-9} | Yes        |");
+                }
             }
-                
+
+            Console.WriteLine("+-----------+-----------+------------+");
         }
 
         //Booked Rooms
         public void DisplayBookedRooms()
         {
+            PrintHeader("Booked Rooms");
+
+            Console.WriteLine("+-----------+---------------+-----------+-----------+");
+            Console.WriteLine("| BookingID | Guest         | Room No   | Type      |");
+            Console.WriteLine("+-----------+---------------+-----------+-----------+");
+
             foreach (Booking booking in bookings)
             {
-                booking.DisplayInfo();
+                Console.WriteLine(
+                    $"| {booking.BookingID,-9} | {booking.Guest.FullName,-13} | {booking.Room.RoomNumber,-9} | {booking.Room.RoomType,-9} |");
             }
+
+            Console.WriteLine("+-----------+---------------+-----------+-----------+");
         }
 
         //SearchGuestBookings
@@ -126,7 +154,7 @@ namespace GrandAzureHotel.Models
             Guest guest = FindGuest(nationalID);
 
             if (guest == null) {
-                Console.WriteLine("Guest not found");return;
+                PrintError("Guest not found");return;
             }
 
             guest.DisplayInfo();
@@ -142,18 +170,39 @@ namespace GrandAzureHotel.Models
         public void DisplayStatistics()
         {
             int bookedRooms = rooms.Count(r => r.IsBooked);
-
             int availableRooms = rooms.Count(r => !r.IsBooked);
 
-            Console.WriteLine($"Guests : {guests.Count}");
-            Console.WriteLine($"Rooms : {rooms.Count}");
-            Console.WriteLine($"Booked Rooms: {bookedRooms}");
-            Console.WriteLine($"Available Rooms: {availableRooms}");
+            PrintHeader("Hotel Statistics");
 
-            Console.WriteLine($"Total Guests Ever Created: {Guest.GetTotalGuestsCreated()}");
+            Console.WriteLine("+--------------------------------------+");
+            Console.WriteLine($"| Registered Guests     : {guests.Count,-12}|");
+            Console.WriteLine($"| Total Rooms           : {rooms.Count,-12}|");
+            Console.WriteLine($"| Booked Rooms          : {bookedRooms,-12}|");
+            Console.WriteLine($"| Available Rooms       : {availableRooms,-12}|");
+            Console.WriteLine($"| Guests Ever Created   : {Guest.GetTotalGuestsCreated(),-12}|");
+            Console.WriteLine("+--------------------------------------+");
+        }
 
 
+        private void PrintSuccess(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(msg);
+            Console.ResetColor();
+        }
 
+        private void PrintError(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(msg);
+            Console.ResetColor();
+        }
+
+        private void PrintHeader(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("\n" + msg);
+            Console.ResetColor();
         }
 
 

@@ -41,6 +41,7 @@ namespace GrandAzureHotel.Models
 
         // method for DisplayInfo
         public void DisplayInfo()
+
         {
             Console.WriteLine($"Room: {roomNumber} | Type : {roomType} | Available : {isBooked}");
         }
