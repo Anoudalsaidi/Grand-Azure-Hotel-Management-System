@@ -1,0 +1,15 @@
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\bin\Debug\net10.0\GrandAzureHotel.exe
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\bin\Debug\net10.0\GrandAzureHotel.deps.json
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\bin\Debug\net10.0\GrandAzureHotel.runtimeconfig.json
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\bin\Debug\net10.0\GrandAzureHotel.dll
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\bin\Debug\net10.0\GrandAzureHotel.pdb
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.AssemblyInfoInputs.cache
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.AssemblyInfo.cs
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.csproj.CoreCompileInputs.cache
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.sourcelink.json
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.dll
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\refint\GrandAzureHotel.dll
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.pdb
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\GrandAzureHotel.genruntimeconfig.cache
+C:\Users\baker\Desktop\Backend\Grand Azure Hotel\GrandAzureHotel\GrandAzureHotel\obj\Debug\net10.0\ref\GrandAzureHotel.dll

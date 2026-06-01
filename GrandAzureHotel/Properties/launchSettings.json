@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "GrandAzureHotel": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
