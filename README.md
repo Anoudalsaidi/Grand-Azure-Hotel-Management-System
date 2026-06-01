@@ -84,6 +84,7 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 ## 📷 Sample Output
 
 Console-based menu system with formatted tables and colored outputs.
+![Project Screenshot](https://github.com/Anoudalsaidi/Grand-Azure-Hotel-Management-System/blob/master/menu.png)
 
 ---
 
