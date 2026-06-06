@@ -71,6 +71,14 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 - Hotel statistics dashboard
 
 ---
+## 🚀 How to Run
+
+1. Clone the repository
+2. Open project in Visual Studio
+3. Run the program
+4. Use console menu to interact
+
+---
 ## 🏗️ System Architecture
 
 The system follows an Object-Oriented Design where each entity is represented by a dedicated class.
@@ -88,16 +96,7 @@ HotelManager
   │
   ├── Manage Guests
   ├── Manage Rooms
-  └── Manage Bookings```
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-2. Open project in Visual Studio
-3. Run the program
-4. Use console menu to interact
-
+  └── Manage Bookings
 ---
 
 ## 📷 Sample Output
@@ -106,15 +105,3 @@ Console-based menu system with formatted tables and colored outputs.
 ![Project Screenshot](https://github.com/Anoudalsaidi/Grand-Azure-Hotel-Management-System/blob/master/menu.png)
 
 ---
-
-## 👩‍💻 Author
-
-Developed by **Anoud**
-
----
-
-## 📌 Status
-
-✔️ Project Completed Successfully  
-✔️ All Requirements Implemented  
-✔️ Bonus UI Improvements Added
