@@ -71,6 +71,25 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 - Hotel statistics dashboard
 
 ---
+## 🏗️ System Architecture
+
+The system follows an Object-Oriented Design where each entity is represented by a dedicated class.
+
+```text
+Guest
+  │
+  ▼
+Booking
+  ▲
+  │
+Room
+
+HotelManager
+  │
+  ├── Manage Guests
+  ├── Manage Rooms
+  └── Manage Bookings
+---
 
 ## 🚀 How to Run
 
