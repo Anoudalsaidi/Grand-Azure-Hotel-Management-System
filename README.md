@@ -97,7 +97,7 @@ The application enforces several real-world hotel management rules:
 ## 🏗️ System Architecture
 
 The system follows an Object-Oriented Design where each entity is represented by a dedicated class.
-
+```text
 Guest
   │
   ▼
