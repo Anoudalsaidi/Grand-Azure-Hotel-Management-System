@@ -88,7 +88,7 @@ HotelManager
   │
   ├── Manage Guests
   ├── Manage Rooms
-  └── Manage Bookings
+  └── Manage Bookings```
 ---
 
 ## 🚀 How to Run
