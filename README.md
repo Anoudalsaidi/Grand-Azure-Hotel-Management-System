@@ -70,20 +70,6 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 - Guest search with bookings
 - Hotel statistics dashboard
 ---
-## 📂 Project Structure
-
-GrandAzureHotel/
-│
-├── Models/
-│   ├── Guest.cs
-│   ├── Room.cs
-│   └── Booking.cs
-│
-├── Services/
-│   └── HotelManager.cs
-│
-└── Program.cs
----
 ## 🚀 How to Run
 
 1. Clone the repository
@@ -131,4 +117,17 @@ HotelManager
   ├── Manage Rooms
   └── Manage Bookings
 ---
+## 📂 Project Structure
+
+GrandAzureHotel/
+│
+├── Models/
+│   ├── Guest.cs
+│   ├── Room.cs
+│   └── Booking.cs
+│
+├── Services/
+│   └── HotelManager.cs
+│
+└── Program.cs
 
