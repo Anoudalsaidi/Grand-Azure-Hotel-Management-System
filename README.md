@@ -79,11 +79,25 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 4. Use console menu to interact
 
 ---
+
+### ⭐ Validation & Business Rules
+
+
+## ✅ Business Rules
+
+The application enforces several real-world hotel management rules:
+
+- A room cannot be booked twice simultaneously.
+- Guest National IDs must be unique.
+- Room numbers must be unique.
+- Bookings can only be cancelled if they exist.
+- Room availability is automatically updated after booking or cancellation.
+---
+
 ## 🏗️ System Architecture
 
 The system follows an Object-Oriented Design where each entity is represented by a dedicated class.
 
-```text
 Guest
   │
   ▼
