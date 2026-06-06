@@ -93,6 +93,12 @@ The application enforces several real-world hotel management rules:
 - Bookings can only be cancelled if they exist.
 - Room availability is automatically updated after booking or cancellation.
 ---
+## 📷 Sample Output
+
+Console-based menu system with formatted tables and colored outputs.
+![Project Screenshot](https://github.com/Anoudalsaidi/Grand-Azure-Hotel-Management-System/blob/master/menu.png)
+
+---
 
 ## 🏗️ System Architecture
 
@@ -113,9 +119,3 @@ HotelManager
   └── Manage Bookings
 ---
 
-## 📷 Sample Output
-
-Console-based menu system with formatted tables and colored outputs.
-![Project Screenshot](https://github.com/Anoudalsaidi/Grand-Azure-Hotel-Management-System/blob/master/menu.png)
-
----
