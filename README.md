@@ -71,6 +71,15 @@ This project was developed to practice OOP concepts, collections (List<T>), enca
 - Guest search with bookings
 - Hotel statistics dashboard
 ---
+## 🔮 Future Enhancements
+
+- SQL Server Database Integration
+- Entity Framework Core
+- Authentication & Authorization
+- Report Exporting
+- ASP.NET Core Web API Version
+- Blazor / MVC Frontend
+---
 ## 🚀 How to Run
 
 1. Clone the repository
